@@ -18,7 +18,11 @@
     "organiser": { "type": "string" },
     "description": { "type": "string", "minLength": 10 },
     "signup_url": { "type": "string", "format": "uri" },
-    "location": { "type": "string" }
+    "location": { "type": "string" },
+    "tags": { 
+      "type": "array",
+      "items": { "type": "string" }
+    }
   },
   "additionalProperties": false
 }
