@@ -5,7 +5,6 @@ layout: default
 # Community Events Calendar
 
 {% assign sorted_events = site.data.events | sort %}
-{% assign events_by_month = "" | split: "" %}
 {% assign current_month = "" %}
 
 {% for item in sorted_events %}
