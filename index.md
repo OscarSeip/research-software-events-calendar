@@ -16,6 +16,7 @@ layout: default
 **Time:** {{ event.time }} ({{ event.timezone }})  
 **Organiser:** {{ event.organiser }}  
 **Location:** {{ event.location }}
+**Tags:** {% if event.tags %}{{ event.tags | join: ", " }}{% else %}None{% endif %}
 
 {{ event.description }}
 
