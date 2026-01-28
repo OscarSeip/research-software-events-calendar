@@ -7,22 +7,6 @@ Events are submitted by the community, reviewed by maintainers, and published on
 🔗 **Live calendar:**  
 [https://oscarseip.github.io/research-software-events-calendar/](https://oscarseip.github.io/research-software-events-calendar/)
 
-## What this project is (and isn’t)
-
-### ✅ This *is*
-- A lightweight, transparent way to collect and publish community events  
-- Open to community submissions  
-- Moderated via review before publication  
-- Free to run and maintain
-
-### ❌ This is *not*
-- A ticketing system  
-- A mailing list  
-- A registration platform  
-- An automated publishing pipeline  
-
-Each event links out to its own **signup or registration page**, hosted elsewhere.
-
 ## How the calendar works
 
 - Each event lives in its **own YAML file** inside `_data/events/`  
