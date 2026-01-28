@@ -1,0 +1,17 @@
+---
+layout: null
+---
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Community Events//EN
+BEGIN:VEVENT
+UID:{{ page.uid }}
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART:{{ page.dtstart }}
+DTEND:{{ page.dtend }}
+SUMMARY:{{ page.title }}
+DESCRIPTION:{{ page.description }}\nSign up: {{ page.signup_url }}
+LOCATION:{{ page.location }}
+END:VEVENT
+END:VCALENDAR
