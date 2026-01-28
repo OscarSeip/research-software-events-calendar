@@ -1,12 +1,12 @@
-# Copy this file, rename it, and fill in all fields.
+# Copy this file, rename it (e.g., event-2026-05-10-open-research-workshop.yml), and fill in all fields.
 
-title: ""
-date: ""
-time: ""
-timezone: ""
-organiser: ""
-description: ""
-signup_url: ""
-location: ""
+title: ""           # Event title
+date: ""            # YYYY-MM-DD format (e.g., 2026-05-10)
+time: ""            # e.g., 10:00–16:00
+timezone: ""        # e.g., BST, UTC
+organiser: ""       # Event organiser
+description: ""     # Short description of the event
+signup_url: ""      # Link to registration or signup page
+location: ""        # Physical or virtual location
 tags:
-  - SSI Fellow  # Choose from the predefined tags in _data/tags.yml
+  - SSI Fellow       # Choose from predefined tags in _data/tags.yml
