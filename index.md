@@ -4,13 +4,24 @@ layout: default
 
 # Community Events Calendar
 
-{% for item in site.data.events %}
-{% assign filename = item[0] %}
-{% assign event = item[1] %}
+{% assign events = site.data.events | where_exp: "item", "item[0] != 'event-template'" %}
+{% assign sorted_events = events | sort: "1.date" %}
 
-{% if filename != "event-template" %}
+{% assign current_month = "" %}
 
-## {{ event.title }}
+{% for item in sorted_events %}
+  {% assign filename = item[0] %}
+  {% assign event = item[1] %}
+
+  {% assign event_month = event.date | date: "%B %Y" %}
+
+  {% if event_month != current_month %}
+## {{ event_month }}
+
+{% assign current_month = event_month %}
+  {% endif %}
+
+### {{ event.title }}
 
 **Date:** {{ event.date }}  
 **Time:** {{ event.time }} ({{ event.timezone }})  
@@ -23,6 +34,4 @@ layout: default
 👉 [Sign up for this event]({{ event.signup_url }})
 
 ---
-
-{% endif %}
 {% endfor %}
