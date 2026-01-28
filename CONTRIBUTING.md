@@ -75,7 +75,7 @@ timezone: "BST"
 organiser: "Example University"
 description: "A hands-on workshop introducing open research practices."
 signup_url: "https://example.org/register"
-location: "Oxford, UK"
+location: "Oxford, UK"''
 
 ### Step 5: Propose your changes
 
