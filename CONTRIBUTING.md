@@ -65,6 +65,11 @@ description: "A hands-on workshop introducing open research practices."
 signup_url: "https://example.org/register"
 location: "Oxford, UK"
 ```
+### Tags
+
+- Each event can have one or more tags.  
+- Only predefined tags are allowed: `SSI Fellow`, `SSI Community`, `SSI Training`, `SSI Events`, `SSI Communications`, `SSI Research and Policy`.  
+- List the tags in your event YAML under `tags:` as a YAML array.
 
 ### Step 5: Propose your changes
 
