@@ -4,10 +4,11 @@ layout: default
 
 # Community Events Calendar
 
-{% assign events = site.data.events | sort: "date" %}
+{% for item in site.data.events %}
+{% assign filename = item[0] %}
+{% assign event = item[1] %}
 
-{% for event_file in events %}
-{% assign event = event_file[1] %}
+{% if filename != "event-template" %}
 
 ## {{ event.title }}
 
@@ -21,4 +22,6 @@ layout: default
 👉 [Sign up for this event]({{ event.signup_url }})
 
 ---
+
+{% endif %}
 {% endfor %}
