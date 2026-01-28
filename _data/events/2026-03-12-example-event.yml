@@ -6,3 +6,6 @@ organiser: "Software Sustainability Institute"
 description: "An introductory session on RSE roles and practices."
 signup_url: "https://example.com/signup"
 location: "Online"
+tags:
+  - SSI Fellows
+  - SSI Community
