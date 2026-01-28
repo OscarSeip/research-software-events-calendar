@@ -5,7 +5,7 @@ This repository powers a **public, curated calendar of research software communi
 Events are submitted by the community, reviewed by maintainers, and published once approved.
 
 🔗 **Live calendar:**  
-`[https://YOUR-USERNAME.github.io/community-events-calendar/](https://oscarseip.github.io/research-software-events-calendar/)`
+[https://oscarseip.github.io/research-software-events-calendar/](https://oscarseip.github.io/research-software-events-calendar/)
 
 ## What this project is (and isn’t)
 
