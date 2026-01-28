@@ -8,3 +8,5 @@ organiser: ""
 description: ""
 signup_url: ""
 location: ""
+tags:
+  - SSI Fellow  # Choose from the predefined tags in _data/tags.yml
