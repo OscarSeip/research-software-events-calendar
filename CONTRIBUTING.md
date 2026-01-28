@@ -5,8 +5,6 @@ This project exists to make community events visible and accessible, and we welc
 
 You do **not** need to be a programmer to contribute, but you **do** need a GitHub account.
 
----
-
 ## What you can contribute
 
 You can contribute by:
@@ -17,8 +15,6 @@ You can contribute by:
 - suggesting improvements via GitHub Issues  
 
 Most contributions take only a few minutes.
-
----
 
 ## How events are submitted
 
@@ -32,9 +28,7 @@ Each event:
 
 Events are **not published automatically** — all submissions go through review.
 
----
-
-## 📅 Submitting a new event
+## Submitting a new event
 
 You do not need to know code, but you need a GitHub account.
 
@@ -42,15 +36,11 @@ You do not need to know code, but you need a GitHub account.
 
 Go to: _data/events/
 
----
-
 ### Step 2: Copy the event template
 
 1. Open `event-template.yml`  
 2. Click **Copy raw file** or **Edit**  
 3. Copy the entire contents  
-
----
 
 ### Step 3: Create a new event file
 
@@ -58,8 +48,6 @@ Go to: _data/events/
 2. Name your file using this format: YYYY-MM-DD-short-event-name.yml (**Example:** 2026-05-10-open-research-workshop.yml)
 
 > Please use lowercase letters and hyphens instead of spaces.
-
----
 
 ### Step 4: Fill in the event details
 
@@ -75,7 +63,8 @@ timezone: "BST"
 organiser: "Example University"
 description: "A hands-on workshop introducing open research practices."
 signup_url: "https://example.org/register"
-location: "Oxford, UK"''
+location: "Oxford, UK"
+```
 
 ### Step 5: Propose your changes
 
@@ -98,7 +87,7 @@ If changes are requested, you can:
 
 Once approved, your event will appear on the public calendar.
 
-### Updating or correcting an event
+## Updating or correcting an event
 
 To update an existing event:
 
@@ -109,13 +98,13 @@ To update an existing event:
 
 Please do not create a new file for updates.
 
-### Cancelling or removing an event
+## Cancelling or removing an event
 
 If an event is cancelled:
 - update the description to clearly state this, or
 - open an Issue asking maintainers to remove the event
 
-### Validation rules (automatic checks)
+## Validation rules (automatic checks)
 
 Submissions are automatically checked to ensure:
 - all required fields are present
@@ -125,7 +114,7 @@ Submissions are automatically checked to ensure:
 
 If a check fails, GitHub will display an error message explaining why.
 
-### Review criteria
+## Review criteria
 
 Maintainers may decline submissions that are:
 - incomplete or unclear
@@ -135,7 +124,7 @@ Maintainers may decline submissions that are:
 
 If a submission is declined, maintainers will explain why.
 
-### Need help?
+## Need help?
 
 If you’re unsure about anything:
 - open a GitHub Issue
