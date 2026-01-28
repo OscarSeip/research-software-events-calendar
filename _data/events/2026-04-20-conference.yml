@@ -1,0 +1,10 @@
+title: "RSE Conference 2026"
+date: "2026-04-20"
+time: "09:00-17:00"
+timezone: "BST"
+organiser: "RSE Society"
+description: "Annual conference for research software engineers from around the world."
+signup_url: "https://example.com/conference"
+location: "London, UK"
+tags:
+  - SSI Events
