@@ -33,6 +33,10 @@ layout: default
   📅 {{ event.date }} • ⏰ {{ event.time }} {{ event.timezone }} • 📍 {{ event.location }}
 </span>
 
+<p style="margin: 4px 0 0; font-size: 0.9em;">
+  {{ event.description | markdownify }}
+</p>
+
 <span style="float: right;">
   <a href="{{ event.signup_url }}">Sign up →</a>
 </span>
