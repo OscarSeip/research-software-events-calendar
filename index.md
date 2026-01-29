@@ -25,21 +25,17 @@ layout: default
 
     {% endif %}
 
-<div style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; margin: 10px 0; background-color: #f9f9f9; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+<div style="border-bottom: 1px solid #eee; padding: 10px 0;">
 
-### {{ event.title }}
+<strong>{{ event.title }}</strong><br>
 
-<p>
-<strong>📅 Date:</strong> {{ event.date }} <br>
-<strong>⏰ Time:</strong> {{ event.time }} ({{ event.timezone }}) <br>
-<strong>👤 Organiser:</strong> {{ event.organiser }} <br>
-<strong>📍 Location:</strong> {{ event.location }} <br>
-<strong>🏷 Tags:</strong> {% if event.tags %}{{ event.tags | join: ", " }}{% else %}None{% endif %}
-</p>
+<span style="font-size: 0.85em; color: #666;">
+  📅 {{ event.date }} • ⏰ {{ event.time }} {{ event.timezone }} • 📍 {{ event.location }}
+</span>
 
-<p>{{ event.description | markdownify }}</p>
-
-<p><strong>🔗 <a href="{{ event.signup_url }}">Sign up for this event</a></strong></p>
+<span style="float: right;">
+  <a href="{{ event.signup_url }}">Sign up →</a>
+</span>
 
 </div>
 
