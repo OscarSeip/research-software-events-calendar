@@ -1,0 +1,41 @@
+/* Events list container */
+.event-item {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+/* Title + CTA row */
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.event-title {
+  font-weight: 600;
+}
+
+/* Metadata line */
+.event-meta {
+  font-size: 0.85em;
+  color: #666;
+  margin-top: 2px;
+}
+
+/* Description */
+.event-description {
+  margin: 4px 0 0;
+  font-size: 0.9em;
+}
+
+/* Signup link */
+.event-signup a {
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.event-signup a:hover {
+  text-decoration: underline;
+}
